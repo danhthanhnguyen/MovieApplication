@@ -1,0 +1,13 @@
+F:\C#\WinFormsMovieApp\WinFormsMovieApp\bin\Debug\WinFormsMovieApp.exe.config
+F:\C#\WinFormsMovieApp\WinFormsMovieApp\bin\Debug\WinFormsMovieApp.exe
+F:\C#\WinFormsMovieApp\WinFormsMovieApp\bin\Debug\WinFormsMovieApp.pdb
+F:\C#\WinFormsMovieApp\WinFormsMovieApp\obj\Debug\WinFormsMovieApp.csprojAssemblyReference.cache
+F:\C#\WinFormsMovieApp\WinFormsMovieApp\obj\Debug\WinFormsMovieApp.Form1.resources
+F:\C#\WinFormsMovieApp\WinFormsMovieApp\obj\Debug\WinFormsMovieApp.Properties.Resources.resources
+F:\C#\WinFormsMovieApp\WinFormsMovieApp\obj\Debug\WinFormsMovieApp.csproj.GenerateResource.cache
+F:\C#\WinFormsMovieApp\WinFormsMovieApp\obj\Debug\WinFormsMovieApp.csproj.CoreCompileInputs.cache
+F:\C#\WinFormsMovieApp\WinFormsMovieApp\obj\Debug\WinFormsMovieApp.exe
+F:\C#\WinFormsMovieApp\WinFormsMovieApp\obj\Debug\WinFormsMovieApp.pdb
+F:\C#\WinFormsMovieApp\WinFormsMovieApp\obj\Debug\WinFormsMovieApp.Movie.resources
+F:\C#\WinFormsMovieApp\WinFormsMovieApp\obj\Debug\WinFormsMovieApp.User.resources
+F:\C#\WinFormsMovieApp\WinFormsMovieApp\obj\Debug\WinFormsMovieApp.Order.resources
