@@ -26,7 +26,7 @@ namespace WinFormsMovieApp
             nameToolStripMenuItem.Text += lastName;
         }
 
-        private void logOutToolStripMenuItem_Click_1(object sender, EventArgs e)
+        private void đăngXuấtToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
             Movie.ActiveForm.Close();
         }

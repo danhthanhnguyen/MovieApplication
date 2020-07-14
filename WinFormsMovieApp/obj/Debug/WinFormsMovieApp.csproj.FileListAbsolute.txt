@@ -11,3 +11,16 @@ F:\C#\WinFormsMovieApp\WinFormsMovieApp\obj\Debug\WinFormsMovieApp.pdb
 F:\C#\WinFormsMovieApp\WinFormsMovieApp\obj\Debug\WinFormsMovieApp.Movie.resources
 F:\C#\WinFormsMovieApp\WinFormsMovieApp\obj\Debug\WinFormsMovieApp.User.resources
 F:\C#\WinFormsMovieApp\WinFormsMovieApp\obj\Debug\WinFormsMovieApp.Order.resources
+C:\Users\Nguyen Danh Thanh\Desktop\MovieApplication\WinFormsMovieApp\bin\Debug\WinFormsMovieApp.exe.config
+C:\Users\Nguyen Danh Thanh\Desktop\MovieApplication\WinFormsMovieApp\bin\Debug\WinFormsMovieApp.exe
+C:\Users\Nguyen Danh Thanh\Desktop\MovieApplication\WinFormsMovieApp\bin\Debug\WinFormsMovieApp.pdb
+C:\Users\Nguyen Danh Thanh\Desktop\MovieApplication\WinFormsMovieApp\obj\Debug\WinFormsMovieApp.csprojAssemblyReference.cache
+C:\Users\Nguyen Danh Thanh\Desktop\MovieApplication\WinFormsMovieApp\obj\Debug\WinFormsMovieApp.Form1.resources
+C:\Users\Nguyen Danh Thanh\Desktop\MovieApplication\WinFormsMovieApp\obj\Debug\WinFormsMovieApp.Movie.resources
+C:\Users\Nguyen Danh Thanh\Desktop\MovieApplication\WinFormsMovieApp\obj\Debug\WinFormsMovieApp.Order.resources
+C:\Users\Nguyen Danh Thanh\Desktop\MovieApplication\WinFormsMovieApp\obj\Debug\WinFormsMovieApp.Properties.Resources.resources
+C:\Users\Nguyen Danh Thanh\Desktop\MovieApplication\WinFormsMovieApp\obj\Debug\WinFormsMovieApp.User.resources
+C:\Users\Nguyen Danh Thanh\Desktop\MovieApplication\WinFormsMovieApp\obj\Debug\WinFormsMovieApp.csproj.GenerateResource.cache
+C:\Users\Nguyen Danh Thanh\Desktop\MovieApplication\WinFormsMovieApp\obj\Debug\WinFormsMovieApp.csproj.CoreCompileInputs.cache
+C:\Users\Nguyen Danh Thanh\Desktop\MovieApplication\WinFormsMovieApp\obj\Debug\WinFormsMovieApp.exe
+C:\Users\Nguyen Danh Thanh\Desktop\MovieApplication\WinFormsMovieApp\obj\Debug\WinFormsMovieApp.pdb
