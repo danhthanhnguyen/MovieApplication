@@ -59,6 +59,7 @@ namespace WinFormsMovieApp
             nameLabel = $"label{Convert.ToInt32(nameLabel.Substring(6)) + 1}";
             using (Order order = new Order())
             {
+                order.getUserName = userName;
                 GetAllControls(this);
                 foreach(var item in ControlList)
                 {

@@ -37,7 +37,7 @@ namespace WinFormsMovieApp
         }
         public void addData(string table, string value1, string value2)
         {
-            string add = $"INSERT INTO {table} VALUES('{value1}', '{value2}')";
+            string add = $"INSERT INTO {table} VALUES(N'{value1}', '{value2}')";
             SqlCommand cmd = new SqlCommand();
             cmd.Connection = connection;
             cmd.CommandText = add;

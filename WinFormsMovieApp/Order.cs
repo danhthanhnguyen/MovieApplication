@@ -15,7 +15,7 @@ namespace WinFormsMovieApp
         public string header;
         DataQuery sql = new DataQuery();
         List<Control> listControl = new List<Control> { };
-        Movie getUserName = new Movie();
+        public string getUserName;
         public Order()
         {
             InitializeComponent();
@@ -71,7 +71,7 @@ namespace WinFormsMovieApp
                     if(((CheckBox)item).Checked == true)
                     {
                         order = true;
-                        sql.addData("Movie", $"{getUserName.userName}", $"{header}", $"{comboBox1.Text}", $"{item.Text}");
+                        sql.addData("Movie", $"{getUserName}", $"{header}", $"{comboBox1.Text}", $"{item.Text}");
                     }
                 }
             }
@@ -82,21 +82,7 @@ namespace WinFormsMovieApp
                 return;
             }
             MessageBox.Show("Bạn đã đặt chỗ thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //Order_Load(sender, e);
-
-//            CREATE TABLE Users(
-//    user_name NVARCHAR(20) PRIMARY KEY,
-//    user_password VARCHAR(15)
-//);
-
-//            CREATE TABLE Movie(
-//                user_name NVARCHAR(20),
-//                movie_name VARCHAR(25),
-//                movie_time VARCHAR(20),
-//                movie_order VARCHAR(10),
-//                PRIMARY KEY(movie_name, movie_order),
-//                FOREIGN KEY(user_name) REFERENCES Users(user_name)
-//            );
+            Order_Load(sender, e);
         }
 
         private void button4_Click(object sender, EventArgs e)
