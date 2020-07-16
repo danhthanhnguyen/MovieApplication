@@ -35,6 +35,7 @@ namespace WinFormsMovieApp
             SqlDataAdapter adapter = new SqlDataAdapter(query, connection);
             adapter.Fill(data);
         }
+        //Add data for Users table
         public void addData(string table, string value1, string value2)
         {
             string add = $"INSERT INTO {table} VALUES(N'{value1}', '{value2}')";
@@ -43,6 +44,7 @@ namespace WinFormsMovieApp
             cmd.CommandText = add;
             cmd.ExecuteNonQuery();
         }
+        //Add data for Movie table
         public void addData(string table, string value1, string value2, string value3, string value4)
         {
             string add = $"INSERT INTO {table} VALUES('{value1}', '{value2}', '{value3}', '{value4}')";

@@ -82,7 +82,7 @@ namespace WinFormsMovieApp
                 return;
             }
             MessageBox.Show("Bạn đã đặt chỗ thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            Order_Load(sender, e);
+            Order.ActiveForm.Close();
         }
 
         private void button4_Click(object sender, EventArgs e)
