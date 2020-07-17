@@ -194,6 +194,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(150, 21);
             this.comboBox1.TabIndex = 0;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // panel5
             // 
@@ -220,7 +221,7 @@
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.Control;
+            this.button1.BackColor = System.Drawing.Color.Yellow;
             this.button1.Dock = System.Windows.Forms.DockStyle.Left;
             this.button1.Enabled = false;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -332,6 +333,7 @@
             // 
             this.checkBox1.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox1.AutoSize = true;
+            this.checkBox1.BackColor = System.Drawing.Color.Yellow;
             this.checkBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -342,12 +344,13 @@
             this.checkBox1.TabIndex = 0;
             this.checkBox1.Text = "A-1";
             this.checkBox1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.UseVisualStyleBackColor = false;
             // 
             // checkBox2
             // 
             this.checkBox2.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox2.AutoSize = true;
+            this.checkBox2.BackColor = System.Drawing.Color.Yellow;
             this.checkBox2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -358,12 +361,13 @@
             this.checkBox2.TabIndex = 1;
             this.checkBox2.Text = "A-2";
             this.checkBox2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.checkBox2.UseVisualStyleBackColor = false;
             // 
             // checkBox3
             // 
             this.checkBox3.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox3.AutoSize = true;
+            this.checkBox3.BackColor = System.Drawing.Color.Yellow;
             this.checkBox3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -374,12 +378,13 @@
             this.checkBox3.TabIndex = 2;
             this.checkBox3.Text = "A-3";
             this.checkBox3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.checkBox3.UseVisualStyleBackColor = false;
             // 
             // checkBox4
             // 
             this.checkBox4.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox4.AutoSize = true;
+            this.checkBox4.BackColor = System.Drawing.Color.Yellow;
             this.checkBox4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -390,12 +395,13 @@
             this.checkBox4.TabIndex = 3;
             this.checkBox4.Text = "A-4";
             this.checkBox4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.checkBox4.UseVisualStyleBackColor = false;
             // 
             // checkBox5
             // 
             this.checkBox5.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox5.AutoSize = true;
+            this.checkBox5.BackColor = System.Drawing.Color.Yellow;
             this.checkBox5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -406,12 +412,13 @@
             this.checkBox5.TabIndex = 4;
             this.checkBox5.Text = "A-5";
             this.checkBox5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.checkBox5.UseVisualStyleBackColor = false;
             // 
             // checkBox6
             // 
             this.checkBox6.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox6.AutoSize = true;
+            this.checkBox6.BackColor = System.Drawing.Color.Yellow;
             this.checkBox6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -422,12 +429,13 @@
             this.checkBox6.TabIndex = 5;
             this.checkBox6.Text = "A-6";
             this.checkBox6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.checkBox6.UseVisualStyleBackColor = false;
             // 
             // checkBox7
             // 
             this.checkBox7.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox7.AutoSize = true;
+            this.checkBox7.BackColor = System.Drawing.Color.Yellow;
             this.checkBox7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -438,12 +446,13 @@
             this.checkBox7.TabIndex = 6;
             this.checkBox7.Text = "A-7";
             this.checkBox7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox7.UseVisualStyleBackColor = true;
+            this.checkBox7.UseVisualStyleBackColor = false;
             // 
             // checkBox8
             // 
             this.checkBox8.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox8.AutoSize = true;
+            this.checkBox8.BackColor = System.Drawing.Color.Yellow;
             this.checkBox8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -454,12 +463,13 @@
             this.checkBox8.TabIndex = 7;
             this.checkBox8.Text = "A-8";
             this.checkBox8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox8.UseVisualStyleBackColor = true;
+            this.checkBox8.UseVisualStyleBackColor = false;
             // 
             // checkBox9
             // 
             this.checkBox9.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox9.AutoSize = true;
+            this.checkBox9.BackColor = System.Drawing.Color.Yellow;
             this.checkBox9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -470,12 +480,13 @@
             this.checkBox9.TabIndex = 8;
             this.checkBox9.Text = "A-9";
             this.checkBox9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox9.UseVisualStyleBackColor = true;
+            this.checkBox9.UseVisualStyleBackColor = false;
             // 
             // checkBox10
             // 
             this.checkBox10.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox10.AutoSize = true;
+            this.checkBox10.BackColor = System.Drawing.Color.Yellow;
             this.checkBox10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -486,12 +497,13 @@
             this.checkBox10.TabIndex = 9;
             this.checkBox10.Text = "A-10";
             this.checkBox10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox10.UseVisualStyleBackColor = true;
+            this.checkBox10.UseVisualStyleBackColor = false;
             // 
             // checkBox11
             // 
             this.checkBox11.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox11.AutoSize = true;
+            this.checkBox11.BackColor = System.Drawing.Color.Yellow;
             this.checkBox11.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox11.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -502,12 +514,13 @@
             this.checkBox11.TabIndex = 10;
             this.checkBox11.Text = "B-1";
             this.checkBox11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox11.UseVisualStyleBackColor = true;
+            this.checkBox11.UseVisualStyleBackColor = false;
             // 
             // checkBox12
             // 
             this.checkBox12.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox12.AutoSize = true;
+            this.checkBox12.BackColor = System.Drawing.Color.Yellow;
             this.checkBox12.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox12.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -518,12 +531,13 @@
             this.checkBox12.TabIndex = 11;
             this.checkBox12.Text = "B-2";
             this.checkBox12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox12.UseVisualStyleBackColor = true;
+            this.checkBox12.UseVisualStyleBackColor = false;
             // 
             // checkBox13
             // 
             this.checkBox13.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox13.AutoSize = true;
+            this.checkBox13.BackColor = System.Drawing.Color.Yellow;
             this.checkBox13.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -534,12 +548,13 @@
             this.checkBox13.TabIndex = 12;
             this.checkBox13.Text = "B-3";
             this.checkBox13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox13.UseVisualStyleBackColor = true;
+            this.checkBox13.UseVisualStyleBackColor = false;
             // 
             // checkBox14
             // 
             this.checkBox14.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox14.AutoSize = true;
+            this.checkBox14.BackColor = System.Drawing.Color.Yellow;
             this.checkBox14.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox14.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -550,12 +565,13 @@
             this.checkBox14.TabIndex = 13;
             this.checkBox14.Text = "B-4";
             this.checkBox14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox14.UseVisualStyleBackColor = true;
+            this.checkBox14.UseVisualStyleBackColor = false;
             // 
             // checkBox15
             // 
             this.checkBox15.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox15.AutoSize = true;
+            this.checkBox15.BackColor = System.Drawing.Color.Yellow;
             this.checkBox15.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox15.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -566,12 +582,13 @@
             this.checkBox15.TabIndex = 14;
             this.checkBox15.Text = "B-5";
             this.checkBox15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox15.UseVisualStyleBackColor = true;
+            this.checkBox15.UseVisualStyleBackColor = false;
             // 
             // checkBox16
             // 
             this.checkBox16.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox16.AutoSize = true;
+            this.checkBox16.BackColor = System.Drawing.Color.Yellow;
             this.checkBox16.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox16.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -582,12 +599,13 @@
             this.checkBox16.TabIndex = 15;
             this.checkBox16.Text = "B-6";
             this.checkBox16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox16.UseVisualStyleBackColor = true;
+            this.checkBox16.UseVisualStyleBackColor = false;
             // 
             // checkBox17
             // 
             this.checkBox17.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox17.AutoSize = true;
+            this.checkBox17.BackColor = System.Drawing.Color.Yellow;
             this.checkBox17.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox17.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox17.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -598,12 +616,13 @@
             this.checkBox17.TabIndex = 16;
             this.checkBox17.Text = "B-7";
             this.checkBox17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox17.UseVisualStyleBackColor = true;
+            this.checkBox17.UseVisualStyleBackColor = false;
             // 
             // checkBox18
             // 
             this.checkBox18.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox18.AutoSize = true;
+            this.checkBox18.BackColor = System.Drawing.Color.Yellow;
             this.checkBox18.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox18.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox18.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -614,12 +633,13 @@
             this.checkBox18.TabIndex = 17;
             this.checkBox18.Text = "B-8";
             this.checkBox18.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox18.UseVisualStyleBackColor = true;
+            this.checkBox18.UseVisualStyleBackColor = false;
             // 
             // checkBox19
             // 
             this.checkBox19.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox19.AutoSize = true;
+            this.checkBox19.BackColor = System.Drawing.Color.Yellow;
             this.checkBox19.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox19.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox19.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -630,12 +650,13 @@
             this.checkBox19.TabIndex = 18;
             this.checkBox19.Text = "B-9";
             this.checkBox19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox19.UseVisualStyleBackColor = true;
+            this.checkBox19.UseVisualStyleBackColor = false;
             // 
             // checkBox20
             // 
             this.checkBox20.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox20.AutoSize = true;
+            this.checkBox20.BackColor = System.Drawing.Color.Yellow;
             this.checkBox20.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox20.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox20.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -646,12 +667,13 @@
             this.checkBox20.TabIndex = 19;
             this.checkBox20.Text = "B-10";
             this.checkBox20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox20.UseVisualStyleBackColor = true;
+            this.checkBox20.UseVisualStyleBackColor = false;
             // 
             // checkBox21
             // 
             this.checkBox21.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox21.AutoSize = true;
+            this.checkBox21.BackColor = System.Drawing.Color.Yellow;
             this.checkBox21.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox21.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox21.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -662,12 +684,13 @@
             this.checkBox21.TabIndex = 20;
             this.checkBox21.Text = "C-1";
             this.checkBox21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox21.UseVisualStyleBackColor = true;
+            this.checkBox21.UseVisualStyleBackColor = false;
             // 
             // checkBox22
             // 
             this.checkBox22.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox22.AutoSize = true;
+            this.checkBox22.BackColor = System.Drawing.Color.Yellow;
             this.checkBox22.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox22.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox22.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -678,12 +701,13 @@
             this.checkBox22.TabIndex = 21;
             this.checkBox22.Text = "C-2";
             this.checkBox22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox22.UseVisualStyleBackColor = true;
+            this.checkBox22.UseVisualStyleBackColor = false;
             // 
             // checkBox23
             // 
             this.checkBox23.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox23.AutoSize = true;
+            this.checkBox23.BackColor = System.Drawing.Color.Yellow;
             this.checkBox23.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox23.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox23.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -694,12 +718,13 @@
             this.checkBox23.TabIndex = 22;
             this.checkBox23.Text = "C-3";
             this.checkBox23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox23.UseVisualStyleBackColor = true;
+            this.checkBox23.UseVisualStyleBackColor = false;
             // 
             // checkBox24
             // 
             this.checkBox24.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox24.AutoSize = true;
+            this.checkBox24.BackColor = System.Drawing.Color.Yellow;
             this.checkBox24.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox24.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox24.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -710,12 +735,13 @@
             this.checkBox24.TabIndex = 23;
             this.checkBox24.Text = "C-4";
             this.checkBox24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox24.UseVisualStyleBackColor = true;
+            this.checkBox24.UseVisualStyleBackColor = false;
             // 
             // checkBox25
             // 
             this.checkBox25.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox25.AutoSize = true;
+            this.checkBox25.BackColor = System.Drawing.Color.Yellow;
             this.checkBox25.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox25.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox25.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -726,12 +752,13 @@
             this.checkBox25.TabIndex = 24;
             this.checkBox25.Text = "C-5";
             this.checkBox25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox25.UseVisualStyleBackColor = true;
+            this.checkBox25.UseVisualStyleBackColor = false;
             // 
             // checkBox26
             // 
             this.checkBox26.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox26.AutoSize = true;
+            this.checkBox26.BackColor = System.Drawing.Color.Yellow;
             this.checkBox26.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox26.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox26.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -742,12 +769,13 @@
             this.checkBox26.TabIndex = 25;
             this.checkBox26.Text = "D-1";
             this.checkBox26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox26.UseVisualStyleBackColor = true;
+            this.checkBox26.UseVisualStyleBackColor = false;
             // 
             // checkBox27
             // 
             this.checkBox27.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox27.AutoSize = true;
+            this.checkBox27.BackColor = System.Drawing.Color.Yellow;
             this.checkBox27.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox27.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox27.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -758,12 +786,13 @@
             this.checkBox27.TabIndex = 26;
             this.checkBox27.Text = "E-1";
             this.checkBox27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox27.UseVisualStyleBackColor = true;
+            this.checkBox27.UseVisualStyleBackColor = false;
             // 
             // checkBox28
             // 
             this.checkBox28.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox28.AutoSize = true;
+            this.checkBox28.BackColor = System.Drawing.Color.Yellow;
             this.checkBox28.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox28.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox28.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -774,12 +803,13 @@
             this.checkBox28.TabIndex = 27;
             this.checkBox28.Text = "D-2";
             this.checkBox28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox28.UseVisualStyleBackColor = true;
+            this.checkBox28.UseVisualStyleBackColor = false;
             // 
             // checkBox29
             // 
             this.checkBox29.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox29.AutoSize = true;
+            this.checkBox29.BackColor = System.Drawing.Color.Yellow;
             this.checkBox29.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox29.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox29.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -790,12 +820,13 @@
             this.checkBox29.TabIndex = 28;
             this.checkBox29.Text = "D-3";
             this.checkBox29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox29.UseVisualStyleBackColor = true;
+            this.checkBox29.UseVisualStyleBackColor = false;
             // 
             // checkBox30
             // 
             this.checkBox30.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox30.AutoSize = true;
+            this.checkBox30.BackColor = System.Drawing.Color.Yellow;
             this.checkBox30.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox30.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox30.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -806,12 +837,13 @@
             this.checkBox30.TabIndex = 29;
             this.checkBox30.Text = "E-2";
             this.checkBox30.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox30.UseVisualStyleBackColor = true;
+            this.checkBox30.UseVisualStyleBackColor = false;
             // 
             // checkBox31
             // 
             this.checkBox31.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox31.AutoSize = true;
+            this.checkBox31.BackColor = System.Drawing.Color.Yellow;
             this.checkBox31.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox31.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox31.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -822,12 +854,13 @@
             this.checkBox31.TabIndex = 30;
             this.checkBox31.Text = "E-3";
             this.checkBox31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox31.UseVisualStyleBackColor = true;
+            this.checkBox31.UseVisualStyleBackColor = false;
             // 
             // checkBox32
             // 
             this.checkBox32.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox32.AutoSize = true;
+            this.checkBox32.BackColor = System.Drawing.Color.Yellow;
             this.checkBox32.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox32.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox32.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -838,12 +871,13 @@
             this.checkBox32.TabIndex = 31;
             this.checkBox32.Text = "D-4";
             this.checkBox32.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox32.UseVisualStyleBackColor = true;
+            this.checkBox32.UseVisualStyleBackColor = false;
             // 
             // checkBox33
             // 
             this.checkBox33.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox33.AutoSize = true;
+            this.checkBox33.BackColor = System.Drawing.Color.Yellow;
             this.checkBox33.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox33.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox33.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -854,12 +888,13 @@
             this.checkBox33.TabIndex = 32;
             this.checkBox33.Text = "E-4";
             this.checkBox33.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox33.UseVisualStyleBackColor = true;
+            this.checkBox33.UseVisualStyleBackColor = false;
             // 
             // checkBox34
             // 
             this.checkBox34.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox34.AutoSize = true;
+            this.checkBox34.BackColor = System.Drawing.Color.Yellow;
             this.checkBox34.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox34.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox34.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -870,12 +905,13 @@
             this.checkBox34.TabIndex = 33;
             this.checkBox34.Text = "C-6";
             this.checkBox34.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox34.UseVisualStyleBackColor = true;
+            this.checkBox34.UseVisualStyleBackColor = false;
             // 
             // checkBox35
             // 
             this.checkBox35.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox35.AutoSize = true;
+            this.checkBox35.BackColor = System.Drawing.Color.Yellow;
             this.checkBox35.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox35.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox35.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -886,12 +922,13 @@
             this.checkBox35.TabIndex = 34;
             this.checkBox35.Text = "D-6";
             this.checkBox35.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox35.UseVisualStyleBackColor = true;
+            this.checkBox35.UseVisualStyleBackColor = false;
             // 
             // checkBox36
             // 
             this.checkBox36.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox36.AutoSize = true;
+            this.checkBox36.BackColor = System.Drawing.Color.Yellow;
             this.checkBox36.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox36.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox36.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -902,12 +939,13 @@
             this.checkBox36.TabIndex = 35;
             this.checkBox36.Text = "D-5";
             this.checkBox36.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox36.UseVisualStyleBackColor = true;
+            this.checkBox36.UseVisualStyleBackColor = false;
             // 
             // checkBox37
             // 
             this.checkBox37.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox37.AutoSize = true;
+            this.checkBox37.BackColor = System.Drawing.Color.Yellow;
             this.checkBox37.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox37.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox37.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -918,12 +956,13 @@
             this.checkBox37.TabIndex = 36;
             this.checkBox37.Text = "E-6";
             this.checkBox37.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox37.UseVisualStyleBackColor = true;
+            this.checkBox37.UseVisualStyleBackColor = false;
             // 
             // checkBox38
             // 
             this.checkBox38.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox38.AutoSize = true;
+            this.checkBox38.BackColor = System.Drawing.Color.Yellow;
             this.checkBox38.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox38.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox38.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -934,12 +973,13 @@
             this.checkBox38.TabIndex = 37;
             this.checkBox38.Text = "E-5";
             this.checkBox38.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox38.UseVisualStyleBackColor = true;
+            this.checkBox38.UseVisualStyleBackColor = false;
             // 
             // checkBox39
             // 
             this.checkBox39.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox39.AutoSize = true;
+            this.checkBox39.BackColor = System.Drawing.Color.Yellow;
             this.checkBox39.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox39.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox39.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -950,12 +990,13 @@
             this.checkBox39.TabIndex = 38;
             this.checkBox39.Text = "C-7";
             this.checkBox39.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox39.UseVisualStyleBackColor = true;
+            this.checkBox39.UseVisualStyleBackColor = false;
             // 
             // checkBox40
             // 
             this.checkBox40.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox40.AutoSize = true;
+            this.checkBox40.BackColor = System.Drawing.Color.Yellow;
             this.checkBox40.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox40.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox40.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -966,12 +1007,13 @@
             this.checkBox40.TabIndex = 39;
             this.checkBox40.Text = "C-8";
             this.checkBox40.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox40.UseVisualStyleBackColor = true;
+            this.checkBox40.UseVisualStyleBackColor = false;
             // 
             // checkBox41
             // 
             this.checkBox41.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox41.AutoSize = true;
+            this.checkBox41.BackColor = System.Drawing.Color.Yellow;
             this.checkBox41.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox41.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox41.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -982,12 +1024,13 @@
             this.checkBox41.TabIndex = 40;
             this.checkBox41.Text = "C-9";
             this.checkBox41.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox41.UseVisualStyleBackColor = true;
+            this.checkBox41.UseVisualStyleBackColor = false;
             // 
             // checkBox42
             // 
             this.checkBox42.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox42.AutoSize = true;
+            this.checkBox42.BackColor = System.Drawing.Color.Yellow;
             this.checkBox42.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox42.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox42.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -998,12 +1041,13 @@
             this.checkBox42.TabIndex = 41;
             this.checkBox42.Text = "C-10";
             this.checkBox42.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox42.UseVisualStyleBackColor = true;
+            this.checkBox42.UseVisualStyleBackColor = false;
             // 
             // checkBox43
             // 
             this.checkBox43.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox43.AutoSize = true;
+            this.checkBox43.BackColor = System.Drawing.Color.Yellow;
             this.checkBox43.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox43.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox43.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1014,12 +1058,13 @@
             this.checkBox43.TabIndex = 42;
             this.checkBox43.Text = "D-10";
             this.checkBox43.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox43.UseVisualStyleBackColor = true;
+            this.checkBox43.UseVisualStyleBackColor = false;
             // 
             // checkBox44
             // 
             this.checkBox44.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox44.AutoSize = true;
+            this.checkBox44.BackColor = System.Drawing.Color.Yellow;
             this.checkBox44.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox44.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox44.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1030,12 +1075,13 @@
             this.checkBox44.TabIndex = 43;
             this.checkBox44.Text = "D-9";
             this.checkBox44.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox44.UseVisualStyleBackColor = true;
+            this.checkBox44.UseVisualStyleBackColor = false;
             // 
             // checkBox45
             // 
             this.checkBox45.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox45.AutoSize = true;
+            this.checkBox45.BackColor = System.Drawing.Color.Yellow;
             this.checkBox45.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox45.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox45.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1046,12 +1092,13 @@
             this.checkBox45.TabIndex = 44;
             this.checkBox45.Text = "D-8";
             this.checkBox45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox45.UseVisualStyleBackColor = true;
+            this.checkBox45.UseVisualStyleBackColor = false;
             // 
             // checkBox46
             // 
             this.checkBox46.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox46.AutoSize = true;
+            this.checkBox46.BackColor = System.Drawing.Color.Yellow;
             this.checkBox46.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox46.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox46.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1062,12 +1109,13 @@
             this.checkBox46.TabIndex = 45;
             this.checkBox46.Text = "D-7";
             this.checkBox46.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox46.UseVisualStyleBackColor = true;
+            this.checkBox46.UseVisualStyleBackColor = false;
             // 
             // checkBox47
             // 
             this.checkBox47.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox47.AutoSize = true;
+            this.checkBox47.BackColor = System.Drawing.Color.Yellow;
             this.checkBox47.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox47.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox47.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1078,12 +1126,13 @@
             this.checkBox47.TabIndex = 46;
             this.checkBox47.Text = "E-7";
             this.checkBox47.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox47.UseVisualStyleBackColor = true;
+            this.checkBox47.UseVisualStyleBackColor = false;
             // 
             // checkBox48
             // 
             this.checkBox48.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox48.AutoSize = true;
+            this.checkBox48.BackColor = System.Drawing.Color.Yellow;
             this.checkBox48.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox48.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox48.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1094,12 +1143,13 @@
             this.checkBox48.TabIndex = 47;
             this.checkBox48.Text = "E-8";
             this.checkBox48.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox48.UseVisualStyleBackColor = true;
+            this.checkBox48.UseVisualStyleBackColor = false;
             // 
             // checkBox49
             // 
             this.checkBox49.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox49.AutoSize = true;
+            this.checkBox49.BackColor = System.Drawing.Color.Yellow;
             this.checkBox49.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox49.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox49.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1110,12 +1160,13 @@
             this.checkBox49.TabIndex = 48;
             this.checkBox49.Text = "E-9";
             this.checkBox49.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox49.UseVisualStyleBackColor = true;
+            this.checkBox49.UseVisualStyleBackColor = false;
             // 
             // checkBox50
             // 
             this.checkBox50.Appearance = System.Windows.Forms.Appearance.Button;
             this.checkBox50.AutoSize = true;
+            this.checkBox50.BackColor = System.Drawing.Color.Yellow;
             this.checkBox50.Cursor = System.Windows.Forms.Cursors.Hand;
             this.checkBox50.Dock = System.Windows.Forms.DockStyle.Fill;
             this.checkBox50.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -1126,7 +1177,7 @@
             this.checkBox50.TabIndex = 49;
             this.checkBox50.Text = "E-10";
             this.checkBox50.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.checkBox50.UseVisualStyleBackColor = true;
+            this.checkBox50.UseVisualStyleBackColor = false;
             // 
             // panel2
             // 

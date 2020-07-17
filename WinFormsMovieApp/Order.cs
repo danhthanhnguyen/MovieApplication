@@ -34,20 +34,29 @@ namespace WinFormsMovieApp
         private void Order_Load(object sender, EventArgs e)
         {
             label2.Text = header;
+            listControl.Clear();
             GetAllControls(this);
+            sql.data.Rows.Clear();
             sql.ConnectSql();
-            sql.printData($"SELECT movie_order FROM Movie WHERE movie_name = '{header}'");
+            sql.printData($"SELECT order_seat FROM Orders WHERE movie_name = '{header}' AND order_time = '{comboBox1.Text}'");
             foreach(var item in listControl)
             {
                 if(item.GetType().Equals(typeof(CheckBox)))
                 {
+                    bool checker = false;
                     for(int i = 0; i < sql.data.Rows.Count; i++)
                     {
                         if(item.Text == sql.data.Rows[i][0].ToString())
                         {
                             item.BackColor = Color.Red;
                             item.Enabled = false;
+                            checker = true;
+                            break;
                         }
+                    }
+                    if(!checker)
+                    {
+                        item.BackColor = Color.Yellow;
                     }
                 }
             }
@@ -71,7 +80,14 @@ namespace WinFormsMovieApp
                     if(((CheckBox)item).Checked == true)
                     {
                         order = true;
-                        sql.addData("Movie", $"{getUserName}", $"{header}", $"{comboBox1.Text}", $"{item.Text}");
+                        try
+                        {
+                            sql.addData("Orders", $"{getUserName}", $"{header}", $"{comboBox1.Text}", $"{item.Text}");
+                        }
+                        catch(Exception ex)
+                        {
+                            MessageBox.Show(ex.Message);
+                        }
                     }
                 }
             }
@@ -92,6 +108,11 @@ namespace WinFormsMovieApp
             {
                 Order.ActiveForm.Close();
             }
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Order_Load(sender, e);
         }
     }
 }

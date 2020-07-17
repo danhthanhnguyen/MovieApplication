@@ -53,5 +53,13 @@ namespace WinFormsMovieApp
             cmd.CommandText = add;
             cmd.ExecuteNonQuery();
         }
+        //Delete data
+        public void deleteData(string query)
+        {
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = connection;
+            cmd.CommandText = query;
+            cmd.ExecuteNonQuery();
+        }
     }
 }
