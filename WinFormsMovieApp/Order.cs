@@ -36,6 +36,21 @@ namespace WinFormsMovieApp
             label2.Text = header;
             listControl.Clear();
             GetAllControls(this);
+            if(comboBox1.Text == "")
+            {
+                foreach(var item in listControl)
+                {
+                    item.Enabled = false;
+                }
+                return;
+            }
+            else
+            {
+                foreach (var item in listControl)
+                {
+                    item.Enabled = true;
+                }
+            }
             sql.data.Rows.Clear();
             sql.ConnectSql();
             sql.printData($"SELECT order_seat FROM Orders WHERE movie_name = '{header}' AND order_time = '{comboBox1.Text}'");
@@ -98,7 +113,7 @@ namespace WinFormsMovieApp
                 return;
             }
             MessageBox.Show("Bạn đã đặt chỗ thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            Order.ActiveForm.Close();
+            this.Close();
         }
 
         private void button4_Click(object sender, EventArgs e)

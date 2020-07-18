@@ -45,7 +45,7 @@ namespace WinFormsMovieApp
                     }
                     sql.disconnect();
                     MessageBox.Show("Đã hủy vé thành công!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-                    Order.ActiveForm.Close();
+                    this.Close();
                 }
             }
             else
