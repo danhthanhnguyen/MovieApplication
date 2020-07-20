@@ -1,0 +1,28 @@
+CREATE TABLE Users (
+	user_name NVARCHAR(20) PRIMARY KEY,
+	user_password VARCHAR(15)
+);
+
+CREATE TABLE Movie (
+	movie_name VARCHAR(25) PRIMARY KEY
+);
+
+CREATE TABLE Orders (
+	user_name NVARCHAR(20),
+	movie_name VARCHAR(25),
+	order_time VARCHAR(20),
+	order_seat VARCHAR(10),
+	PRIMARY KEY (user_name, movie_name, order_seat),
+	FOREIGN KEY (user_name) REFERENCES Users(user_name),
+	FOREIGN KEY (movie_name) REFERENCES Movie(movie_name)
+);
+
+INSERT INTO Users VALUES('Nguyen Danh Thanh', '12345678')
+
+--Movie list
+INSERT INTO Movie VALUES('Spider Man 2')
+INSERT INTO Movie VALUES('John Wick 3')
+INSERT INTO Movie VALUES('Avatar')
+INSERT INTO Movie VALUES('Iron Man 3')
+INSERT INTO Movie VALUES('Deadpool')
+INSERT INTO Movie VALUES('One Piece Stampede')
